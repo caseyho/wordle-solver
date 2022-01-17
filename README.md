@@ -9,7 +9,7 @@ The list of possible Wordle words can be determined by peeking at Wordle's sourc
 | Algorithm  | Optimal(1) | Max partitions | Max entropy | Max size (Knuth) |
 | ---------- | -------- | -------------- | ----------- | ---------------- |
 | Total guesses | 7920 | 7949 | 8023 | 8245 |
-| First guess | [redacted](2) | TRACE | SOARE | RAISE |
+| First guess | (redacted) (2) | TRACE | SOARE | RAISE |
 | Avg. turns | 3.4212 | 3.4337 | 3.4657 | 3.5616 |
 | Stddev turns | 0.6105 | 0.6355 | 0.6111 | 0.6528 |
 | Max turns | 5 | 6 | 6 | 6 |
@@ -22,12 +22,15 @@ The list of possible Wordle words can be determined by peeking at Wordle's sourc
 
 * (1) Optimal is based on a recusive search of all potential game states with aggressive pruning. There is a slight possibility that the minimum found (7920) may not represent the true minimum due to the way some game states were pruned. I will update this in the case the true minimum is found to be lower; the value is posted here to provide a benchmark for anyone attempting to also solve the game.
 * (2) Hiding the best guess for now. Don't want to spoil all the fun :)
+
+
+Hard difficulty benchmarks - coming soon!
+
 * Total guesses = the total number of guesses required to solve all 2315 potential Wordle puzzles
 * Avg turns = the average number of turns required to find the solution to a Wordle puzzle
 * Max turns = the maximum number of guesses required to find a particular Wordle puzzle
 * First guess = each game the player starts with the same information- none. Thus the first move is identical in all games.
 
-Hard difficulty benchmarks - coming soon!
 
 ## Algorithms
 
