@@ -35,21 +35,21 @@ The list of possible Wordle words can be determined by peeking at Wordle's sourc
 
 | Algorithm  | Current best\* | Max partitions | Max entropy | Minimax (Knuth) |
 | ---------- | -------- | -------------- | ----------- | ---------------- |
-| Total guesses | 8122 | 8179 | 8347 | 8496 |
+| Total guesses | 8120 | 8179 | 8347 | 8496 |
 | First guess | TBD | TRACE | SOARE | RAISE |
-| Avg. turns | 3.5084 | 3.5330 | 3.6056 | 3.6700 |
-| Std. dev turns | 0.7468 | 0.7982 | 0.7962 | 0.8444 |
-| Max turns | 8 | 8 | 8 | 8 |
+| Avg. turns | 3.5076 | 3.5330 | 3.6056 | 3.6700 |
+| Std. dev turns | 0.7439 | 0.7982 | 0.7962 | 0.8444 |
+| Max turns | 7 | 8 | 8 | 8 |
 | *By Game length* | | | | |
 | 2 turn games | 135 | 124 | 79 | 108 |
-| 3 turn games | 1056 | 1091 | 1055 | 908 |
-| 4 turn games | 963 | 887 | 945 | 1014 |
-| 5 turn games | 139 | 173 | 184 | 220 |
-| 6 turn games | 18 | 31 | 42 | 50 |
+| 3 turn games | 1057 | 1091 | 1055 | 908 |
+| 4 turn games | 962 | 887 | 945 | 1014 |
+| 5 turn games | 138 | 173 | 184 | 220 |
+| 6 turn games | 20 | 31 | 42 | 50 |
 | 7 turn games | 3 | 6 | 8 | 13 |
-| 8 turn games | 1 | 2 | 2 | 1 |
+| 8 turn games | 0 | 2 | 2 | 1 |
 
-* (3) Current best = based on semi-exhaustive search of branches. Close to optimum but not quite. Room for improvement.
+* (3) Current best = based on semi-exhaustive search of branches. Likely close to optimal.
 
 ## Algorithms
 
