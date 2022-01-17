@@ -14,7 +14,7 @@ The list of possible Wordle words can be determined by peeking at Wordle's sourc
 * Std. dev turns = the standard deviation in number of turns per game, roughly measuring consistency
 * Max turns = the maximum number of guesses required to find a solution
 
-| Algorithm  | Optimal\* | Max partitions | Max entropy | Max size (Knuth) |
+| Algorithm  | Optimal\* | Max partitions | Max entropy | Minimax (Knuth) |
 | ---------- | -------- | -------------- | ----------- | ---------------- |
 | Total guesses | 7920 | 7949 | 8023 | 8245 |
 | First guess | \[redacted\]\* | TRACE | SOARE | RAISE |
@@ -33,7 +33,7 @@ The list of possible Wordle words can be determined by peeking at Wordle's sourc
 
 ### Hard mode benchmarks
 
-| Algorithm  | Optimal(1) | Max partitions | Max entropy | Max size (Knuth) |
+| Algorithm  | Optimal(1) | Max partitions | Max entropy | Minimax (Knuth) |
 | ---------- | -------- | -------------- | ----------- | ---------------- |
 | Total guesses | TBD | 8179 | 8347 | 8496 |
 | First guess | TBD | TRACE | SOARE | RAISE |
