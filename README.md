@@ -1,5 +1,5 @@
-# wordle-solver
-Benchmarks of optimal gameplay for Wordle puzzles
+# wordle-solver-benchmarks
+Benchmarks of optimal gameplay for various algorithms used to solver Wordle puzzles
 
 ## Problem set
 The list of possible Wordle words can be determined by peeking at Wordle's source code. There are 2315 potential Wordle games, each of which is a fairly common 5-letter English words. There is also a second, larger set of 12972 words containing the majority of 5-letter words that can be found in an English dictionary from which the user can guess from.
