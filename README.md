@@ -20,7 +20,7 @@ The list of possible Wordle words can be determined by peeking at Wordle's sourc
 | 5 turn games | 53 | 87 | 81 | 123 |
 | 6+ turn games | 0 | 5 | 6 | 5 |
 
-* (1) Optimal is based on a recusive search of all potential game states with aggressive pruning. There is a slight possibility that the minimum found (7920) may not represent the true minimum due to the way some game states were pruned. I will update this in the case the true minimum is found to be lower; the value is posted here to provide a benchmark for anyone attempting to also solve the game.
+* (1) Optimal is based on a recusive search of all potential game states with aggressive pruning. There is a slight possibility that the minimum found (7920) may not represent the true minimum due to the way some game states were pruned. Regardless, the value is posted here to provide a benchmark for anyone attempting to fine-tune their own solution or also find the perfect decision tree. I will update this in the case the true minimum is found to be lower.
 * (2) Hiding the best guess for now. Don't want to spoil all the fun :)
 
 
