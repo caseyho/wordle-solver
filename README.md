@@ -6,26 +6,26 @@ The list of possible Wordle words can be determined by peeking at Wordle's sourc
 
 ## Benchmarks
 
-
-
 | Algorithm  | Optimal(1) | Max partitions | Max entropy | Max size (Knuth) |
 | ---------- | -------- | -------------- | ----------- | ---------------- |
-| Total guesses | 7920 | x | x | x |
-| First guess | [redacted] | TRACE | SOARE | RAISE |
-| Avg. turns | 3.4212 | x | x | x |
-| Stddev turns | 0.6105 | x | x | x | x |
+| Total guesses | 7920 | 7949 | 8023 | 8245 |
+| First guess | [redacted](2) | TRACE | SOARE | RAISE |
+| Avg. turns | 3.4212 | 3.4337 | 3.4657 | 3.5616 |
+| Stddev turns | 0.6105 | 0.6355 | 0.6111 | 0.6528 |
 | Max turns | 5 | 6 | 6 | 6 |
 | | | | | |
-| 2-turn games | 96 | x | x | x |
-| 3-turn games | 1201 | x | x | x |
-| 4-turn games | 965 | x | x | x |
-| 5-turn games | 53 | x | x | x |
-| 6-turn games | 0 | x | x | x |
+| 2 turn games | 96 | 78 | 45 | 67 |
+| 3 turn games | 1201 | 1249 | 1240 | 1011 |
+| 4 turn games | 965 | 895 | 943 | 1108 |
+| 5 turn games | 53 | 87 | 81 | 123 |
+| 6+ turn games | 0 | 5 | 6 | 5 |
 
 * (1) Optimal is based on a recusive search of all potential game states with aggressive pruning. There is a slight possibility that the minimum found (7920) may not represent the true minimum due to the way some game states were pruned. I will update this in the case the true minimum is found to be lower; the value is posted here to provide a benchmark for anyone attempting to also solve the game.
+* (2) Hiding the best guess for now. Don't want to spoil all the fun :)
 * Total guesses = the total number of guesses required to solve all 2315 potential Wordle puzzles
 * Avg turns = the average number of turns required to find the solution to a Wordle puzzle
 * Max turns = the maximum number of guesses required to find a particular Wordle puzzle
+* First guess = each game the player starts with the same information- none. Thus the first move is identical in all games.
 
 Hard difficulty benchmarks - coming soon!
 
