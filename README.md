@@ -38,3 +38,9 @@ It is possible to write a generalized solver that finds optimal guessing starteg
 Information on various algorithms to Mastermind algorithms can be found here: https://en.wikipedia.org/wiki/Mastermind_(board_game)#Algorithms_and_strategies
 
 For the purposes of this solver, meta-gaming (comparing against publicly posted results from other players) is ignored.
+
+## Code
+
+Code for the solver will be posted at a later time
+
+
