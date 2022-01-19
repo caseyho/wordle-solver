@@ -17,7 +17,7 @@ The list of possible Wordle words can be determined by peeking at Wordle's sourc
 | Algorithm  | Optimal\* | Max partitions | Max entropy | Minimax (Knuth) |
 | ---------- | -------- | -------------- | ----------- | ---------------- |
 | Total guesses | 7920 | 7949 | 8023 | 8245 |
-| First guess | \[redacted\]\* | TRACE | SOARE | RAISE |
+| First guess | SALET | TRACE | SOARE | RAISE |
 | Avg. turns | 3.4212 | 3.4337 | 3.4657 | 3.5616 |
 | Std. dev turns | 0.6105 | 0.6355 | 0.6111 | 0.6528 |
 | Max turns | 5 | 6 | 6 | 6 |
@@ -28,8 +28,7 @@ The list of possible Wordle words can be determined by peeking at Wordle's sourc
 | 5 turn games | 53 | 87 | 81 | 123 |
 | 6 turn games | 0 | 5 | 6 | 5 |
 
-* (1) Optimal is based on a recusive search of all potential game states with aggressive pruning. There is a slight possibility that the minimum found (7920) may not represent the true minimum due to the way some game states were pruned. Regardless, the value is posted here to provide a benchmark for anyone attempting to fine-tune their own solution or also find the perfect decision tree. I will update this in the case the true minimum is found to be lower.
-* (2) The best starting word is hidden for now. Don't want to spoil all the fun :)
+* (1) Optimal is based on a recusive search of all potential game states with aggressive pruning. There is a slight possibility that the minimum found (7920) may not represent the true minimum due to the way some game states were pruned. Regardless, the value is posted here to provide a benchmark for anyone attempting to fine-tune their own solution or also find the perfect decision tree. Will update in the case this is beaten.
 
 ### Hard mode benchmarks
 
@@ -49,7 +48,7 @@ The list of possible Wordle words can be determined by peeking at Wordle's sourc
 | 7 turn games | 3 | 6 | 8 | 13 |
 | 8 turn games | 0 | 2 | 2 | 1 |
 
-* (3) Current best = based on semi-exhaustive search of branches. Likely close to optimal.
+* (3) Current best = based on semi-exhaustive search of branches. Likely close to optimal. Can possibly be bested.
 
 ## Algorithms
 
