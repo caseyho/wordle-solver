@@ -1,6 +1,8 @@
 # wordle-solver-benchmarks
 Optimal gameplay benchmarks for various algorithms that can be used to solve Wordle puzzles
 
+7920 step solution: https://github.com/caseyho/wordle-solver-benchmarks/blob/main/wordle_perfect_solutions_7920_steps.txt
+
 ## Problem set
 Wordle is a word guessing game available at: https://www.powerlanguage.co.uk/wordle/
 
